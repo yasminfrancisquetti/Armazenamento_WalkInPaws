@@ -1,0 +1,78 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.WalkInPaws" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#50FA7B</item>
+        <item name="colorPrimaryVariant">#8BE9FD</item>
+        <item name="colorOnPrimary">#F1FA8C</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#BD93F9</item>
+        <item name="colorSecondaryVariant">#FF79C6</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="DefaultStyle">
+        <item name="android:textSize">15sp</item>
+        <item name="android:fontFamily">sans-serif-smallcaps</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">#F8F8F2</item>
+        <item name="backgroundTint">#F8F8F2</item>
+    </style>
+
+    <style name="Purple" parent="DefaultStyle">
+        <item name="android:textColor">#BD93F9</item>
+        <item name="backgroundTint">#BD93F9</item>
+        <item name="android:textColorHint">#BD93F9</item>
+    </style>
+
+    <style name="Pink" parent="DefaultStyle">
+        <item name="android:textColor">#FF79C6</item>
+        <item name="backgroundTint">#FF79C6</item>
+        <item name="android:textColorHint">#FF79C6</item>
+    </style>
+
+    <style name="Cyan" parent="DefaultStyle">
+        <item name="android:textColor">#8BE9FD</item>
+        <item name="backgroundTint">#8BE9FD</item>
+        <item name="android:textColorHint">#8BE9FD</item>
+    </style>
+
+    <style name="Lime" parent="DefaultStyle">
+        <item name="android:textColor">#50FA7B</item>
+        <item name="backgroundTint">#50FA7B</item>
+        <item name="android:textColorHint">#50FA7B</item>
+    </style>
+
+    <style name="Yellow" parent="DefaultStyle">
+        <item name="android:textColor">#F1FA8C</item>
+        <item name="backgroundTint">#F1FA8C</item>
+        <item name="android:textColorHint">#F1FA8C</item>
+    </style>
+
+    <style name="Orange" parent="DefaultStyle">
+        <item name="android:textColor">#FFB86C</item>
+        <item name="backgroundTint">#FFB86C</item>
+        <item name="android:textColorHint">#FFB86C</item>
+    </style>
+
+    <style name="Red" parent="DefaultStyle">
+        <item name="android:textColor">#FF5555</item>
+        <item name="backgroundTint">#FF5555</item>
+        <item name="android:textColorHint">#FF5555</item>
+    </style>
+
+    <style name="Theme.WalkInPaws.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.WalkInPaws.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.WalkInPaws.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    // COLOR FOR TEXT ON BUTTONS: #F8F8F2
+
+</resources>

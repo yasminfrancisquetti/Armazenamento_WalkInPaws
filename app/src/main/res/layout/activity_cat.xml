@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8BE9FD"
+    tools:context=".CatActivity">
+
+    <ImageView
+        android:id="@+id/imgvwhealthcat"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.63"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnmaisinfocat"
+        app:srcCompat="@drawable/health" />
+
+    <TextView
+        android:id="@+id/txtvwtitulocat"
+        style="@style/DefaultStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/titulo_calor_cat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtvwtextocat"
+        style="@style/DefaultStyle"
+        android:layout_width="345dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/texto_calor_cat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtvwtitulocat" />
+
+    <Button
+        android:id="@+id/btnmaisinfocat"
+        style="@style/DefaultStyle"
+        android:layout_width="300dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="20dp"
+        android:onClick="direcionarSite"
+        android:text="@string/mais_info"
+        android:textColor="#8BE9FD"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtvwtextocat" />
+</androidx.constraintlayout.widget.ConstraintLayout>

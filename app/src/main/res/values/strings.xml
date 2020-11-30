@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">WalkInPaws</string>
+    <string name="bem_vindo">SEJA BEM VINDO(A)!</string>
+    <string name="login">LOGIN</string>
+    <string name="senha">SENHA</string>
+    <string name="novo_usuario">NOVO USUÁRIO</string>
+    <string name="meu_nome">YASMIN FRANCISQUETTI</string>
+    <string name="para_onde">OLÁ, PARA ONDE VAMOS HOJE?</string>
+    <string name="nomeeid_usuario">NOME E ID DE USUÁRIO</string>
+    <string name="end_atual">ENDEREÇO ATUAL: %s\n</string>
+    <string name="btn_geo">EFETUAR GEOLOCALIZAÇÃO</string>
+    <string name="btn_passeios">CONSULTAR PASSEIOS</string>
+    <string name="confirmar">CLIQUE NO BOTÃO PARA CONFIRMAR!</string>
+    <string name="mais_info">MAIS INFORMAÇÕES</string>
+    <string name="btn_escolher_imagem">SELECIONAR IMAGEM</string>
+    <string name="btn_cadastrar">CADASTRAR</string>
+    <string name="bem_vindo_app">SEJA BEM VINDO(A) AO APP!</string>
+    <string name="cpf">CPF</string>
+    <string name="nome">NOME</string>
+    <string name="email">EMAIL</string>
+    <string name="titulo_calor_dog">CUIDADOS COM CÃES EM TEMPERATURAS ALTAS</string>
+    <string name="texto_calor_dog">Sabia que cães podem ficar queimados de sol? <br />Ou que raças de cães de focinho curto têm <br />mais problemas para se resfriar através da respiração ofegante? <br />Ou que tosar a pelagem do cão pode ser mais <br />prejudicial do que não tosar? <br />Veja algumas dicas clicando no botão!</string>
+    <string name="titulo_calor_cat">CUIDADOS COM GATOS EM TEMPERATURAS ALTAS</string>
+    <string name="texto_calor_cat">Gatos são animais que no geral suportam bem o calor. Eles gostam de se deitar e passar horas tomando sol. Deve-se redobrar os cuidados porque o sol é demasiado forte e pode ser prejudicial para eles, causando inclusive a longo prazo, o temido câncer de pele. <br />Clique no botão para mais informações! </string>
+    <string name="dog">CÃO</string>
+    <string name="cat">GATO</string>
+    <string name="especie">ESPÉCIE</string>
+    <string name="genero">GÊNERO</string>
+    <string name="male">MACHO</string>
+    <string name="female">FÊMEA</string>
+    <string name="btn_apagar_usuario">APAGAR USUÁRIO</string>
+    <string name="btn_adicionar_pet">+</string>
+    <string name="destino">DESTINO</string>
+    <string name="origem">ORIGEM</string>
+    <string name="inicio_conc">INÍCIO E CONCLUSÃO</string>
+    <string name="pets_presentes">PETS PRESENTES</string>
+    <string name="data">DATA</string>
+    <string name="mensagem">MENSAGEM</string>
+    <string name="inserir_pet">INSERIR PET</string>
+    <string name="text_pet_name">Nome do pet</string>
+    <string name="text_message">Mensagem</string>
+    <string name="error_missing_fields">Favor inserir todos os campos</string>
+
+</resources>

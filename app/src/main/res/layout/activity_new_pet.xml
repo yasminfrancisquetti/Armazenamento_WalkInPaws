@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Orange"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFB86C"
+    tools:context=".NewPetActivity">
+
+    <ImageView
+        android:id="@+id/petImageView"
+        android:layout_width="270dp"
+        android:layout_height="270dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dogandcat" />
+
+    <EditText
+        android:id="@+id/edttxtnomepet"
+        style="@style/DefaultStyle"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/nome"
+        android:inputType="textPersonName"
+        android:textColor="#F8F8F2"
+        android:textColorHint="#F8F8F2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/petImageView" />
+
+    <ToggleButton
+        android:id="@+id/tbtnespecie"
+        style="@style/DefaultStyle"
+        android:layout_width="300dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#F8F8F2"
+        android:text="ToggleButton"
+        android:textColor="#FFB86C"
+        android:textOff="@string/dog"
+        android:textOn="@string/cat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edttxtnomepet" />
+
+    <ToggleButton
+        android:id="@+id/tbtngenero"
+        style="@style/DefaultStyle"
+        android:layout_width="300dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#F8F8F2"
+        android:text="ToggleButton"
+        android:textColor="#FFB86C"
+        android:textOff="@string/male"
+        android:textOn="@string/female"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tbtnespecie" />
+
+    <Button
+        android:id="@+id/btnescolherfoto"
+        style="@style/DefaultStyle"
+        android:layout_width="300dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/btn_escolher_imagem"
+        android:textColor="#FFB86C"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tbtngenero" />
+
+    <Button
+        android:id="@+id/btnescolherfoto2"
+        style="@style/DefaultStyle"
+        android:layout_width="300dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/btn_cadastrar"
+        android:textColor="#FFB86C"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnescolherfoto" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

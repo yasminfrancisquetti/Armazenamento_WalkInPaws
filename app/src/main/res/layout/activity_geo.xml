@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#F1FA8C"
+    tools:context=".GeoActivity">
+
+    <TextView
+        android:id="@+id/txtvwendatual"
+        style="@style/Yellow"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/end_atual"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtvwconfirmar" />
+
+    <Button
+        android:id="@+id/btnefetuargeo"
+        style="@style/Yellow"
+        android:layout_width="300dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="48dp"
+        android:onClick="direcionarMaps"
+        android:text="@string/btn_geo"
+        android:textColor="#F8F8F2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtvwendatual" />
+
+    <Button
+        android:id="@+id/btnpasseios"
+        style="@style/Yellow"
+        android:layout_width="300dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="10dp"
+        android:onClick="startWalkListActivity"
+        android:text="@string/btn_passeios"
+        android:textColor="#F8F8F2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnefetuargeo" />
+
+    <ImageView
+        android:id="@+id/imgvwgeosc"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="70dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.594"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/geoscreen" />
+
+    <TextView
+        android:id="@+id/txtvwconfirmar"
+        style="@style/Yellow"
+        android:layout_width="237dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/confirmar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgvwgeosc" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Purple"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BD93F9"
+    tools:context=".UserActivity" >
+
+    <ImageView
+        android:id="@+id/imgvwuserprofile"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/user" />
+
+    <TextView
+        android:id="@+id/txtvwcpfusuario"
+        style="@style/DefaultStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/cpf"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgvwuserprofile" />
+
+    <TextView
+        android:id="@+id/txtvwnomeusuario"
+        style="@style/DefaultStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/nome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtvwcpfusuario" />
+
+    <TextView
+        android:id="@+id/txtvwemailusuario"
+        style="@style/DefaultStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtvwnomeusuario" />
+
+    <Button
+        android:id="@+id/btnapagarusuario"
+        style="@style/DefaultStyle"
+        android:layout_width="300dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/btn_apagar_usuario"
+        android:textColor="#BD93F9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtvwemailusuario" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

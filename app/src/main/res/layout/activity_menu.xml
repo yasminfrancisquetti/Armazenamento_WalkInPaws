@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity">
+
+    <ImageView
+        android:id="@+id/btnusericon"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="10dp"
+        android:onClick="exibirUser"
+        app:layout_constraintEnd_toStartOf="@+id/btndogicon"
+        app:layout_constraintHorizontal_bias="0.463"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btngeoicon"
+        app:srcCompat="@drawable/user" />
+
+    <ImageView
+        android:id="@+id/btnpetsicon"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="10dp"
+        android:onClick="exibirPets"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.375"
+        app:layout_constraintStart_toEndOf="@+id/btndogicon"
+        app:layout_constraintTop_toBottomOf="@+id/btncaticon"
+        app:srcCompat="@drawable/pets" />
+
+    <TextView
+        android:id="@+id/txtvwparaonde"
+        style="@style/Pink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/para_onde"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/btngeoicon"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="100dp"
+        android:onClick="exibirGeo"
+        app:layout_constraintEnd_toStartOf="@+id/btndogicon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtvwparaonde"
+        app:srcCompat="@drawable/geo" />
+
+    <ImageView
+        android:id="@+id/btndogicon"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="100dp"
+        android:onClick="exibirDog"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtvwparaonde"
+        app:srcCompat="@drawable/dog" />
+
+    <ImageView
+        android:id="@+id/btncaticon"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="100dp"
+        android:onClick="exibirCat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.39"
+        app:layout_constraintStart_toEndOf="@+id/btndogicon"
+        app:layout_constraintTop_toBottomOf="@+id/txtvwparaonde"
+        app:srcCompat="@drawable/cat" />
+
+    <ImageView
+        android:id="@+id/imgvwmsg"
+        android:layout_width="350dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/emergency" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
